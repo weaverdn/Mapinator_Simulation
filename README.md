@@ -1,24 +1,24 @@
 # Mapinator_Simulation
 Simulation of Mapinator Reverse Directed Search Model
 
-Based on Peters (2021) (see PDF in repository).
+Based on Peters (2021): https://montoya.econ.ubc.ca/papers/markets/markets.pdf
 
 Simluation produces an adjacency matrix of unversity-PhD garduate matches, and uses maximum likelihood estimation to estimate the structural parameters of the offer distribution.
 
-Written in Python. Jupyter Notebook file.
+Written in Python. File runs in Jupyter Notebook.
 
 ===========
 
 ### To use the simulation, use the following function:
 
-`def mapinator_nxm(uni_and_tier:bool,
+`mapinator_nxm(uni_and_tier:bool,
                   universities:int,
                   graduates:int,
                   tier_probs:List[float],
                   tiervalues:List[float],
                   rounds:int,
                   stdevs:List[float],
-                  means=List[float]):`
+                  means=List[float])`
 
 Where the researcher may choose the following parameters to simluate a reverse directed search game:
 
