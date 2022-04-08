@@ -32,7 +32,7 @@ Where the researcher may choose the following parameters to simluate a reverse d
 
 5. `tiervalues`: List of values of graduates from each tier. Intended for values between 0 and 1.
 
-6. 'rounds`: Number of times simulation is repeated. Adjacency matrix cells are summed over rounds.
+6. `rounds`: Number of times simulation is repeated. Adjacency matrix cells are summed over rounds.
 
 7. `stdevs`: Standard deviations of the truncated normal offer distribution for each tier. Ex. [0.1, 0.1, 0.2, 0.2] gives the standard deviations for tier 1, tier2, tier3, and tier4 offers.
 
