@@ -1,4 +1,4 @@
-# Mapinator_Simulation
+# Mapinator Simulation
 Simulation of Mapinator Reverse Directed Search Model
 
 Based on Peters (2021): https://montoya.econ.ubc.ca/papers/markets/markets.pdf
